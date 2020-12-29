@@ -15,6 +15,7 @@ export class AppComponent {
       email: new FormControl(""),
       password: new FormControl("")
     });
+    console.log(this.form);
   }
 
   submit() {
