@@ -1,21 +1,21 @@
 <div class="container" style="padding-top: 200px">
 	<form (ngSubmit)="submit()" [formGroup]="form">
-		<div class="d-flex flex-column form-group">
-			<label>Nom</label>
-			<input formControlName="nom" type="text" />
-    </div>
-			<div class="d-flex flex-column form-group">
-				<label>Email</label>
-				<input formControlName="email"  type="email" />
-    </div>
-				<div class="d-flex flex-column form-group">
-					<label>Mot de passe</label>
-					<input formControlName="password"  type="password" />
-    </div>
-					<div class="d-flex flex-column form-group">
-						<label>Confirmation</label>
-						<input type="password" />
-    </div>
-						<button class="btn btn-primary" style="margin-top: 20px">Valider</button>
+      <div class="d-flex flex-column form-group">
+        <label>Nom</label>
+        <input formControlName="nom" type="text" />
+      </div>
+      <div class="d-flex flex-column form-group">
+        <label>Email</label>
+        <input formControlName="email"  type="email" />
+      </div>
+      <div class="d-flex flex-column form-group">
+        <label>Mot de passe</label>
+        <input formControlName="password"  type="password" />
+      </div>
+      <div class="d-flex flex-column form-group">
+        <label>Confirmation</label>
+        <input type="password" />
+      </div>
+      <button class="btn btn-primary" style="margin-top: 20px">Valider</button>
 	</form>
 </div>
